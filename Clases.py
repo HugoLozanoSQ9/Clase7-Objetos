@@ -3,10 +3,6 @@ import convert
 
 class User:
 
-    race = "Human"
-
-    # dunder: double underscore (doble guion bajo)
-
     def __init__(
         self, first_name, last_name, username, password,age
     ) -> None:
