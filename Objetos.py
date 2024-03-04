@@ -7,12 +7,11 @@ HW.
 
 Definir 3 clases: User, Post, Article
 
-Definir en cada clase un método (save) que permita fuardar los 
+Definir en cada clase un método (save) que permita guardar los 
 datos de la instancia en el archivo respectivo (users.json, posts.json, articles.json)
-
 users.json -> Contiene una lista de usuarios
 posts.json -> Contiene una lista de posts
-articles.json -> contiene una lista de artículos
+article.json -> contiene una lista de artículos
 
 Resultado esperado:
 user = User('Alfredo','Altamirano')
