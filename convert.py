@@ -76,6 +76,7 @@ def read(file_name:list | dict) -> list | dict:
 
     file = open(file_name, "r")  # modo r, se puede quitar la r pq es el argumento por defecto
     file_name = file.read()
+
     python_user_list = json.loads(file_name)
     file.close()
     return python_user_list
